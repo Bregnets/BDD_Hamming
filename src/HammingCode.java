@@ -1,3 +1,4 @@
+package main;
 public class HammingCode {
 
 	static public String encode(String data) {
