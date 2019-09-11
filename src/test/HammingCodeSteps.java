@@ -28,7 +28,7 @@ public class HammingCodeSteps {
 	  public void CatchError() {
 	    System.out.println(">>>> Expected Msg - "+ msg);	    
 	    String corrected = HammingCode.decode(error);
-	    System.out.println(">>>> Actual Msg - "+ corrected);
+	    Assert.assertTrue(corrected == msg);
 	  }
 
 }
